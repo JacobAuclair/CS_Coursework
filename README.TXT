@@ -1,12 +1,6 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Sending Acking
+
+PURPOSE OF PROJECT: This project will send a packet to a host, that host will ack if it receives the packet or nack if it times out. The first host with then receive that reply and proceed to send a new packet or resend the dropped packet
+
+AUTHORS: Jacob Auclair
